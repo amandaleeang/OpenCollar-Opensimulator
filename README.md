@@ -1,3 +1,13 @@
+## Modifications
+- oc_anim
+- oc_bell
+- oc_bookmarks-OSG
+- oc_folders
+- oc_leash-OSG
+- oc_meshlabel
+- oc_particle
+- oc_titler
+
 ### Welcome to OpenCollar
 
 OpenCollar is a set of LSL scripts and related content (such as animations,
