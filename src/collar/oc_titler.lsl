@@ -34,7 +34,10 @@ DebugOutput(key kID, list ITEMS){
     llInstantMessage(kID, llGetScriptName() +" "+final);
 }
 integer LINK_CMD_DEBUG=1999;
-integer g_iNoB64=FALSE; // Use base64 by default
+// integer g_iNoB64=FALSE; // Use base64 by default
+// Amanda:
+// setting no64 in OS seems to work
+integer g_iNoB64=TRUE; // No base64 by default, shrugs
 integer g_iWasUpgraded=FALSE; // This will not harm anything if set to true after being upgraded. However, it should eventually be set to false again
 //MESSAGE MAP
 //integer CMD_ZERO = 0;
