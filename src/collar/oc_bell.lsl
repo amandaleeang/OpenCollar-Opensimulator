@@ -48,9 +48,18 @@ integer g_iBellShow=FALSE; // is the bell visible
 string g_sBellShow="SHOW"; //menu text of bell visible
 string g_sBellHide="HIDE"; //menu text of bell hidden
 
+
+// Amanda: 
+// Old sounds ... I guess
 //list g_listBellSounds=["7b04c2ee-90d9-99b8-fd70-8e212a72f90d","b442e334-cb8a-c30e-bcd0-5923f2cb175a","1acaf624-1d91-a5d5-5eca-17a44945f8b0","5ef4a0e7-345f-d9d1-ae7f-70b316e73742","da186b64-db0a-bba6-8852-75805cb10008","d4110266-f923-596f-5885-aaf4d73ec8c0","5c6dd6bc-1675-c57e-0847-5144e5611ef9","1dc1e689-3fd8-13c5-b57f-3fedd06b827a"]; // list with legacy bell sounds
 
-list g_listBellSounds=["ae3a836f-4d69-2b74-1d52-9c78a9106206","503d2360-99f8-7a4a-8b89-43c5122927bd","a3ff9ca6-8289-0007-5b6b-d4c993580a6b","843adc44-1189-2d67-6f3a-72a80b3a9ed4","4c84b9b7-b363-b501-c019-8eef5fb4d3c2","3b95831e-8da5-597f-3b4d-713a03945cb6","285b317c-23d1-de51-84bc-938eb3df9e46","074b9b37-f6a3-a0a3-f40e-14bc57502435"]; // list with 4.0 bell sounds
+// SL bell sounds
+//list g_listBellSounds=["ae3a836f-4d69-2b74-1d52-9c78a9106206","503d2360-99f8-7a4a-8b89-43c5122927bd","a3ff9ca6-8289-0007-5b6b-d4c993580a6b","843adc44-1189-2d67-6f3a-72a80b3a9ed4","4c84b9b7-b363-b501-c019-8eef5fb4d3c2","3b95831e-8da5-597f-3b4d-713a03945cb6","285b317c-23d1-de51-84bc-938eb3df9e46","074b9b37-f6a3-a0a3-f40e-14bc57502435"]; // list with 4.0 bell sounds
+
+// OSGrid bell sounds, took the uid from another script. Sounds uploaded by ??
+list g_listBellSounds=["10b27c32-43b5-40fb-b5a2-bbf770fbec5c", "a4c075a9-359e-4055-b093-5aa42cddea1c", "1e6f849d-9fee-42f2-b89a-98882a28b152", "d1cdd688-42d7-4780-804f-0abe94ebca2a", "ac855add-8834-4284-a6c1-74769b7cccb4", "aba3c635-efb6-4642-aea4-5a4ea94df059", "a6a3fcd4-3330-451f-b332-3fd59e3d698a", "74811182-df1d-4b72-a9de-87f3706ac7bd", "1d1b675c-4bee-4cc4-b225-69793893e66b", "687a10f6-5c97-419f-8fc4-51013b821d9d", "0c3774b9-90d9-4089-9198-f0445fa053e6", "d71c05d2-1869-4e94-b077-9de8551e8917"];
+
+
 key g_kCurrentBellSound; // curent bell sound key
 integer g_iCurrentBellSound; // curent bell sound sumber
 integer g_iBellSoundCount; // number of avail bell sounds
