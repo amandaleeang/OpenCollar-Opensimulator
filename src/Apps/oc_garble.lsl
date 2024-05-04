@@ -6,7 +6,7 @@
 
 //original by Joy Stipe
 
-//MESSAGE MAP
+//MESSAGE MAP 
 integer CMD_OWNER = 500;
 //integer CMD_TRUSTED = 501;
 //integer CMD_GROUP = 502;
@@ -86,7 +86,12 @@ string garble(string in) {
     if (in == "b" || in == "p" || in == "v") return "f";
     if (in == "x") return "ek";
     // randomly garble everything else
-    if (llFloor(llFrand(10.0) < 1)) return in;
+    
+    // Amanda: 
+    // A floor of a bool makes no sense.
+    // Parentesis are wrong placed
+    // if (llFloor(llFrand(10.0) < 1)) return in;
+    if (llFloor(llFrand(10.0)) < 1) return in;
     return "nh";
 }
 
